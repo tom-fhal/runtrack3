@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ff0000;
+  }
+  
+  .box1 {
+    margin: 15px;
+    height: 399px;
+    width: 850px;
+    outline: 1px dashed var(--primary-color);
+  }
+  
+  section.box2 {
+    height: 399px;
+    width: 850px;
+    outline: 1px dashed var(--secondary-color);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .box1,
+    section.box2 {
+      width: 90%;
+      font-size: 0.8rem;
+    }
+  }
+  
